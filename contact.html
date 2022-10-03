@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WAR OF HALF</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/woh.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/warofhalf.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/challenge.css'>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 pt-2 pt-sm-4">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light white pt-3 pl-3 pr-3 pb-2">
+                    <p class="text-center mb-2 title">
+                        <small id="open-sidebar">
+                            <!-- <small> -->
+                            <span class="pull-left">
+                                <i class="nc-icon nc-align-left-2 pt-2 pointer"></i>
+                            </span>
+                            <!-- </small> -->
+                        </small>
+                        <span class="text-dark">WAR</span>
+                        <span class="text-info">OF</span>
+                        <span class="text-dark">HALF</span>
+                    </p>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="warofhalf.html"> <i class="nc-icon nc-bank text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="new.html"> <i class="nc-icon nc-simple-add text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="challenge.html"> <i class="nc-icon nc-diamond text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="help.html"> <i class="nc-icon nc-key-25 text-dark"></i> </a>
+                            </h2>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <!-- Navbar -->
+            </div>
+
+            <!-- <h4 class="text-right text-success">0.000000 BTC</h4> -->
+            <div class="col-md-12 pt-3 mb-4 animated rubberBand">
+
+                <div class="woh-overlay woh-animate-opacity ml-3 mt-3" id="woh-overlay"></div>
+
+                <div id="sidenav" class="side-nav side-nav-light woh-animate-left ml-3 mt-3">
+                    <ul class="custom-scrollbar list-unstyled">
+                        <li>
+                            <ul class="collapsible collapsible-accordion">
+                                <li><a class=" waves-effect text-muted">
+                                        <span class="text-primary">Dashboard</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="signin.html">
+                                        <span class="text-dark">Sign In</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Sign Up</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Deposit</span> </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Withdraw</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Statement</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Share with Friends</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Contact Us</span></a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="sidenav-bg mask-strong"></div>
+                </div>
+
+                <section class="form-elegant">
+
+                    <!-- Grid row -->
+
+                    <!--Form without header-->
+                    <div class="card">
+
+                        <div class="card-body">
+                            <div class="row">
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-4"></div>
+                                <div class="col-md-6 col-lg-4">
+
+                                    <section class="mb-2">
+
+                                        <!--Section heading-->
+                                        <h2 class="h1-responsive font-weight-bold text-center my-3">Contact Us</h2>
+                                        <!--Section description-->
+                                        <p class="text-center w-responsive mx-auto mb-1 text-muted">
+                                            <!-- <small> -->
+                                            Do you have any questions? <br>
+                                            Please contact us
+                                            <!-- </small> -->
+                                        </p>
+
+                                        <form>
+
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="email" name="email" class="form-control w-100"
+                                                    required placeholder="Your email">
+                                                <!-- <label for="email" class="">Your email</label> -->
+                                            </div>
+
+                                            <div class="md-form mt-0">
+                                                <textarea type="text" id="message" name="message" rows="3"
+                                                    class="form-control md-textarea w-100" required
+                                                    placeholder="Your message"></textarea>
+                                                <!-- <label for="message">Your message</label> -->
+                                            </div>
+
+                                            <!--Grid row-->
+
+
+
+                                            <div class="text-center text-md-left p-0">
+                                                <button type="submit" class="btn blue-gradient w-100 btn-rounded">
+                                                    Send Message
+                                                </button>
+                                            </div>
+                                            <div class="status"></div>
+                                        </form>
+
+                                    </section>
+
+                                </div>
+                                <!--/Form without header-->
+
+
+                            </div>
+                            <!-- Grid column -->
+
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

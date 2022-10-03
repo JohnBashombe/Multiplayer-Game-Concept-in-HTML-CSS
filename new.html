@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WAR OF HALF</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/woh.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/warofhalf.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/challenge.css'>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 pt-2 pt-sm-4">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light white pt-3 pl-3 pr-3 pb-2">
+                    <p class="text-center mb-2 title">
+                        <small id="open-sidebar">
+                            <!-- <small> -->
+                            <span class="pull-left">
+                                <i class="fas fa-bars pt-2 pointer"></i>
+                            </span>
+                            <!-- </small> -->
+                        </small>
+                        <span class="text-dark">WAR</span>
+                        <span class="text-info">OF</span>
+                        <span class="text-dark">HALF</span>
+                    </p>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="warofhalf.html"> <i class="fas fa-home text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="new.html"> <i class="fas fa-plus-square text-danger"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="challenge.html"> <i class="fas fa-trophy text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="help.html"> <i class="fab fa-hire-a-helper text-dark"></i> </a>
+                            </h2>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <!-- Navbar -->
+            </div>
+
+            <!-- <h4 class="text-right text-success">0.000000 BTC</h4> -->
+            <div class="col-md-12 pt-3 mb-4 animated rubberBand">
+
+                <div class="woh-overlay woh-animate-opacity ml-3 mt-3" id="woh-overlay"></div>
+
+                <div id="sidenav" class="side-nav side-nav-light woh-animate-left ml-3 mt-3">
+                    <ul class="custom-scrollbar list-unstyled">
+                        <li>
+                            <ul class="collapsible collapsible-accordion">
+                                <li>
+                                    <a class=" waves-effect text-muted">
+                                        <span class="text-primary">Dashboard</span></a>
+                                </li>
+                                <li>
+                                    <a class="collapsible-header waves-effect" href="signin.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-sign-in-alt"></i> Sign In
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="collapsible-header waves-effect" href="signup.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-user-plus"></i> Sign Up
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="deposit.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-funnel-dollar"></i> Deposit
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="collapsible-header waves-effect" href="withdraw.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-hand-holding-usd"></i> Withdraw
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="transaction.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-landmark"></i> Transaction
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="share.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-share-alt"></i> Share with Friends
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="contact.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-sms"></i> Contact Us
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="terms.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-book"></i> T &amp; Conditions
+                                        </span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="sidenav-bg mask-strong"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- <div class="pad-title-big"> -->
+                                        <h4 class="text-dark">
+                                            <i class="fas fa-plus-square text-warning"></i>
+                                        </h4>
+                                        <!-- </div> -->
+                                    </div>
+
+                                    <div class="col-12 text-center mb-3">
+
+                                        <div class="row">
+
+                                            <div class="col-12">
+
+                                                <div class="WOH_Game_Pane">
+
+                                                    <div id="blue-side" class="blue-side z-depth-3">
+                                                        <div class="wohBlue-scene">
+                                                            <div class="wohBlue">
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle wohBlue-border"></div>
+                                                                <div class="wohBlue-circle"></div>
+                                                                <div class="wohBlue-circle"></div>
+                                                                <div class="wohBlue-circle"></div>
+                                                                <div class="wohBlue-circle"></div>
+                                                                <div class="wohBlue-circle"></div>
+                                                            </div>
+                                                            <p class="num-blue text-dark">
+                                                                1
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="purple-side" class="purple-side z-depth-3">
+                                                        <div class="wohPurple-scene">
+                                                            <div class="wohPurple">
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle wohPurple-border"></div>
+                                                                <div class="wohPurple-circle"></div>
+                                                                <div class="wohPurple-circle"></div>
+                                                                <div class="wohPurple-circle"></div>
+                                                                <div class="wohPurple-circle"></div>
+                                                                <div class="wohPurple-circle"></div>
+                                                            </div>
+                                                            <p class="num-purple text-dark">
+                                                                <i class="fas fa-question
+                                                                     animated heartBeat infinite"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="green-side" class="green-side text-center z-depth-3">
+                                                        <div class="wohGreen-scene">
+                                                            <div class="wohGreen">
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle wohGreen-border"></div>
+                                                                <div class="wohGreen-circle"></div>
+                                                                <div class="wohGreen-circle"></div>
+                                                                <div class="wohGreen-circle"></div>
+                                                                <div class="wohGreen-circle"></div>
+                                                                <div class="wohGreen-circle"></div>
+                                                            </div>
+                                                            <p class="num-green text-dark">
+                                                                <i class="fas fa-question animated heartBeat 
+                                                                    infinite"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="col-12">
+
+                                        <div class="text-center">
+
+                                            <div class="row mb-0 mt-4">
+
+                                                <div class="col-4 text-center">
+                                                    <div class="from-check form-check-inline">
+                                                        <input type="checkbox" class="form-check-input" id="choice1"
+                                                            required>
+                                                        <label class="form-check-label" for="choice1">
+                                                            <span>B</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 text-center">
+                                                    <div class="from-check form-check-inline">
+                                                        <input type="checkbox" class="form-check-input" id="choice2"
+                                                            required>
+                                                        <label class="form-check-label" for="choice2">
+                                                            <span>P</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 text-center">
+                                                    <div class="from-check form-check-inline">
+                                                        <input type="checkbox" class="form-check-input" id="choice3"
+                                                            required>
+                                                        <label class="form-check-label" for="choice3">
+                                                            <span>G</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-4">
+                                                    <div class="md-form">
+                                                        <button class="btn btn-info btn-sm">
+                                                            <i class="fas fa-minus pr-0"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-4 pr-0 pl-2">
+                                                    <div class="md-form">
+                                                        <input type="text" class="form-control w-100"
+                                                            placeholder="Games" name="players" id="players" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-4">
+                                                    <div class="md-form">
+                                                        <button class="btn btn-info btn-sm">
+                                                            <i class="fas fa-plus pr-0"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <p class="text-dark text-center pr-2 pl-sm-0 pr-sm-0 pb-2">
+                                                <button class="btn btn-green w-100 btn-lg z-depth-3">PLAY
+                                                    BPG</button>
+                                            </p>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <h5 class="text-right">
+                                    <small class="pull-left"><small><b>Balance</b></small></small>
+                                    <span class="text-success">0.000000 BTC</span>
+                                </h5>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Challenge</span>
+                                    <span class="text-danger">Not Active</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Your Max Games</span>
+                                    <span class="text-dark">50</span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Choice 1</span>
+                                    <span class="text-dark"><b>None</b></span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Choice 2</span>
+                                    <span class="text-dark"><b>None</b></span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Choice 3</span>
+                                    <span class="text-dark"><b>None</b></span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Game Cost</span>
+                                    <span class="text-info">0.000199 BTC</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Total Games</span>
+                                    <span class="text-dark">1</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Total Cost</span>
+                                    <span class="text-dark">0.000199 BTC</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Total Win</span>
+                                    <span class="text-success">0.000286 BTC</span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Coupon Codes</span>
+                                    <span class="text-dark"><b>6</b></span>
+                                </p>
+                                <hr>
+
+                                <h5 class="text-right text-dark">
+                                    <b>
+                                        <span class="pull-left">TOTAL</span>
+                                        <span class="text-dark">0.000155 BTC</span>
+                                    </b>
+                                </h5>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/colors.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WAR OF HALF</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/woh.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/warofhalf.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/challenge.css'>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 pt-2 pt-sm-4">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light white pt-3 pl-3 pr-3 pb-2">
+                    <p class="text-center mb-2 title">
+                        <small id="open-sidebar">
+                            <!-- <small> -->
+                            <span class="pull-left">
+                                <i class="nc-icon nc-align-left-2 pt-2 pointer"></i>
+                            </span>
+                            <!-- </small> -->
+                        </small>
+                        <span class="text-dark">WAR</span>
+                        <span class="text-info">OF</span>
+                        <span class="text-dark">HALF</span>
+                    </p>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="warofhalf.html"> <i class="nc-icon nc-bank text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="new.html"> <i class="nc-icon nc-simple-add text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="challenge.html"> <i class="nc-icon nc-diamond text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="help.html"> <i class="nc-icon nc-key-25 text-dark"></i> </a>
+                            </h2>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <!-- Navbar -->
+            </div>
+
+            <!-- <h4 class="text-right text-success">0.000000 BTC</h4> -->
+            <div class="col-md-12 pt-3 mb-4 animated rubberBand">
+
+                <div class="woh-overlay woh-animate-opacity ml-3 mt-3" id="woh-overlay"></div>
+
+                <div id="sidenav" class="side-nav side-nav-light woh-animate-left ml-3 mt-3">
+                    <ul class="custom-scrollbar list-unstyled">
+                        <li>
+                            <ul class="collapsible collapsible-accordion">
+                                <li><a class=" waves-effect text-muted">
+                                        <span class="text-primary">Dashboard</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Login</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Register</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Deposit</span> </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Withdraw</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Statement</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Share with Friends</span></a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect arrow-r" href="#">
+                                        <span class="text-dark">Contact Us</span></a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="sidenav-bg mask-strong"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-12">
+
+                                        <div class="row">
+                                            <div class="col-3 col-sm-6">
+                                                <h4 class="text-dark">
+                                                    <i class="nc-icon nc-caps-small pt-1"></i>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-12">
+                                        <!-- Display all Available challenges here -->
+
+                                        <div class="row">
+                                            <div class="col-2"> <span class="hidden-xxs">No.</span> </div>
+                                            <div class="col-5">ID</div>
+                                            <div class="col-5">OPTION</div>
+                                        </div>
+
+                                        <hr>
+
+                                        <div class="challenges_list">
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">1</div>
+                                                <div class="col-5 pt-2">0.000199 BTC</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">2</div>
+                                                <div class="col-5 pt-2">0.000199 BTC</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <hr class="hidden-xl hidden-lg hidden-md">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <p class="text-left text-primary">
+                                    Transaction Details
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Amount</span>
+                                    <span class="text-dark">0.000199 BTC</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Date</span>
+                                    <span class="text-dark"> 19 / 08 / 2019 </span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Operation</span>
+                                    <span class="text-success"> Deposit </span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Address</span>
+                                    <a href="#">
+                                        <span class="text-dark myGames-link">
+                                            kxjywbhppsdepuvfhrjgklkhf
+                                        </span>
+                                    </a>
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WAR OF HALF</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/woh.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/warofhalf.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/challenge.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/blueSide.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/purpleSide.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/greenSide.css'>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 pt-2 pt-sm-4">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light white pt-3 pl-3 pr-3 pb-2">
+                    <p class="text-center mb-2 title">
+                        <small id="open-sidebar">
+                            <!-- <small> -->
+                            <span class="pull-left">
+                                <i class="fas fa-bars pt-2 pointer"></i>
+                            </span>
+                            <!-- </small> -->
+                        </small>
+                        <span class="text-dark">WAR</span>
+                        <span class="text-info">OF</span>
+                        <span class="text-dark">HALF</span>
+                    </p>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="warofhalf.html"> <i class="fas fa-home text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="new.html"> <i class="fas fa-plus text-dark"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="challenge.html"> <i class="fas fa-trophy text-danger"></i></a>
+                            </h2>
+                        </div>
+                        <div class="col-3 text-center">
+                            <h2 class="pt-2">
+                                <a href="help.html"> <i class="fab fa-hire-a-helper text-dark"></i> </a>
+                            </h2>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <!-- Navbar -->
+            </div>
+
+            <!-- <h4 class="text-right text-success">0.000000 BTC</h4> -->
+            <div class="col-md-12 pt-3 mb-4 animated rubberBand">
+
+                <div class="woh-overlay woh-animate-opacity ml-3 mt-3" id="woh-overlay"></div>
+
+                <div id="sidenav" class="side-nav side-nav-light woh-animate-left ml-3 mt-3">
+                    <ul class="custom-scrollbar list-unstyled">
+                        <li>
+                            <ul class="collapsible collapsible-accordion">
+                                <li>
+                                    <a class=" waves-effect text-muted">
+                                        <span class="text-primary">Dashboard</span></a>
+                                </li>
+                                <li>
+                                    <a class="collapsible-header waves-effect" href="signin.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-sign-in-alt"></i> Sign In
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="collapsible-header waves-effect" href="signup.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-user-plus"></i> Sign Up
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="deposit.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-funnel-dollar"></i> Deposit
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="collapsible-header waves-effect" href="withdraw.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-hand-holding-usd"></i> Withdraw
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="transaction.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-landmark"></i> Transaction
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="share.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-share-alt"></i> Share with Friends
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="contact.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-sms"></i> Contact Us
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a class="collapsible-header waves-effect" href="terms.html">
+                                        <span class="text-dark">
+                                            <i class="fas fa-book"></i> T &amp; Conditions
+                                        </span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="sidenav-bg mask-strong"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-12">
+
+                                        <div class="row">
+                                            <div class="col-3 col-sm-6">
+                                                <h4 class="text-dark">
+                                                    <i class="fas fa-trophy pt-1 text-warning"></i>
+                                                </h4>
+                                            </div>
+                                            <div class="col-9 col-sm-6 text-right">
+                                                <div class="md-form form-inline mt-0">
+                                                    <input type="text" class="form-control w-100"
+                                                        placeholder="Search By Id" name="players" id="players" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-12">
+                                        <!-- Display all Available challenges here -->
+
+                                        <div class="row">
+                                            <div class="col-2"> <span class="hidden-xxs">No.</span> </div>
+                                            <div class="col-5">ID</div>
+                                            <div class="col-5">OPTION</div>
+                                        </div>
+
+                                        <hr>
+
+                                        <div class="row pb-2">
+                                            <div class="col-2 pt-2"> <i
+                                                    class="nc-icon nc-button-play animated pulse infinite text-success"></i>
+                                            </div>
+                                            <div class="col-5 pt-2">0123456789</div>
+                                            <div class="col-5">
+                                                <button class="btn btn-info btn-sm ml-0">Details</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="challenges_list">
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">1</div>
+                                                <div class="col-5 pt-2">0123456789</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">2</div>
+                                                <div class="col-5 pt-2">0123456789</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">3</div>
+                                                <div class="col-5 pt-2">0123456789</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">4</div>
+                                                <div class="col-5 pt-2">0123456789</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">5</div>
+                                                <div class="col-5 pt-2">0123456789</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-2 pt-2">6</div>
+                                                <div class="col-5 pt-2">0123456789</div>
+                                                <div class="col-5">
+                                                    <button class="btn btn-info btn-sm ml-0">Details</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <hr class="hidden-xl hidden-lg hidden-md">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <h5 class="text-right">
+                                    <small class="pull-left">Balance</small>
+                                    <span class="text-success">0.000000 BTC</span>
+                                </h5>
+
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Challenge</span>
+                                    <span class="text-danger">Not Active</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Challenge Balance</span>
+                                    <span class="text-primary">0.000000 BTC</span>
+                                </p>
+
+
+                                <hr>
+
+                                <!-- <p class="text-left text-dark">
+                                    <span><b>Team Alpha</b></span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Players</span>
+                                    <span class="text-info">25</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Total Games</span>
+                                    <span class="text-dark">20</span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-left text-dark">
+                                    <span><b>Team Beta</b></span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Players</span>
+                                    <span class="text-info">25</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Total Games</span>
+                                    <span class="text-dark">15</span>
+                                </p> -->
+
+                                <!-- If the user is in Challenge -->
+
+                                <p class="text-left text-dark">
+                                    <span><b>Team Alpha</b></span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Players</span>
+                                    <span class="text-info">25</span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Total Games</span>
+                                    <span class="text-dark"> 4 / 15 </span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Won Games</span>
+                                    <span class="text-dark"> 2 / 8 </span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Total Bonus</span>
+                                    <span class="text-dark"> 8 / 30 </span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Bonus Won</span>
+                                    <span class="text-dark"> 6 / 17 </span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">MY SHARE</span>
+                                    <span class="text-dark badge badge-info p-2"> <b>0.00</b> % </span>
+                                </p>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left">Close Request</span>
+                                    <span class="text-dark"> <b>30 %</b> </span>
+                                </p>
+
+                                <hr>
+
+                                <p class="text-right text-dark">
+                                    <span class="pull-left"><b>Team Beta Games</b></span>
+                                    <span class="text-danger"><b>25</b></span>
+                                </p>
+
+                                <hr>
+
+                                <h5 class="text-center pt-3 pb-3">
+                                    <span class="text-danger">00</span> H :
+                                    <span class="text-danger">56</span> Min :
+                                    <span class="text-danger">28</span> Sec
+                                </h5>
+
+                                <h5 class="text-center text-dark">
+                                    <button class="btn btn-danger w-100 ml-0">Exit and Close</button>
+                                </h5>
+
+
+                                <!-- <h5 class="text-center text-dark">
+                                    <button class="btn btn-info w-100 ml-0">Join Alpha</button>
+                                </h5> -->
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

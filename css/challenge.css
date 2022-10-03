@@ -1,0 +1,631 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px
+}
+
+.challenges_list::-webkit-scrollbar {
+    width: 5px;
+    height: 5px
+}
+
+
+::-webkit-scrollbar-track {
+    background: #bcbcbc;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #848885;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5c5f5d
+}
+
+.pull-right {
+    float: right
+}
+
+.pull-left {
+    float: left
+}
+
+.games-status {
+    font-size: 25px;
+    font-weight: 500
+}
+
+.title-header {
+    font-size: 20px;
+    font-weight: 200
+}
+
+.text-small {
+    font-weight: 700
+}
+
+.blue-side {
+    width: 40px;
+    height: 180px;
+    border-radius: 50px;
+    transform: rotate(32deg);
+    -webkit-transform: rotate(32deg);
+    -moz-transform: rotate(32deg);
+    background-color: #00f;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: -14px;
+}
+
+.purple-side {
+    width: 40px;
+    height: 180px;
+    border-radius: 50px;
+    transform: rotate(-32deg);
+    -webkit-transform: rotate(-32deg);
+    -moz-transform: rotate(-32deg);
+    background-color: rgb(179, 78, 179);
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -14px;
+}
+
+.green-side {
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 150px;
+    background-color: rgb(104, 170, 104)
+}
+.middle-part{
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 37px;
+    margin-top: -60px;
+}
+
+.middle-label{
+    color: rgba(94, 99, 114, 0.637);
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+
+.radius {
+    border-radius: 100px
+}
+
+.top {
+    position: fixed;
+    bottom: 15px;
+    z-index: 999;
+    right: 15px
+}
+
+.bg-price {
+    background-color: #9c4141
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px
+}
+
+.icons-challenge img {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px
+}
+
+.btn-play {
+    width: 60%
+}
+
+.btn-40 {
+    width: 40%
+}
+
+.title-small {
+    font-size: 15px;
+    font-weight: 200
+}
+
+.play-all {
+    position: fixed;
+    right: 15px;
+    top: 75px;
+    z-index: 999;
+}
+
+@media(min-width: 1px) and (max-width: 767.98px){
+    .play-all {
+        top: 120px;
+    }
+}
+
+.delete_modal:hover{
+    text-decoration-line: underline
+}
+
+.WOH_Game_Pane{
+    display: inline-block;
+}
+
+.div-input{
+    width: 91.666666667%;
+}
+
+@media(min-width:1px) and (max-width:575.98px){
+    .div-input{
+        width: 100%;
+    }
+}
+
+.myGames-link:hover{
+    text-decoration-line: underline;
+}
+
+.challenges_list{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    max-height: 400px;
+}
+
+.btn-withdraw{
+    width: 50%;
+}
+
+@media(min-width: 1px) and (max-width:575.98px){
+    .btn-withdraw{
+        width: 100%;
+    }
+}
+
+
+@keyframes animateSphere {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+    }
+
+    50% {
+        transform: rotateY(360deg) rotateX(360deg) rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateY(720deg) rotateX(720deg) rotateZ(0deg);
+    }
+}
+
+.w-20{
+    width: 20%;
+}
+
+.font-30{
+    font-size: 30px;
+}
+
+@media(min-width: 320px) and (max-width:767.98px){
+    .font-30{
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 1px) and (max-width:319.98px){
+    .font-30{
+        font-size: 20px;
+    }
+}
+
+/* Bars Customizaations */
+
+/* Start with Green Side */
+
+
+.wohGreen-scene {
+    perspective: 1000px;
+}
+
+.wohGreen {
+    z-index: 1;
+    /* margin-top: 0px; */
+    top: -25px;
+    left: 25%;
+    /* margin-left: -25px; */
+    margin-right: auto;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    transform-style: preserve-3d;
+    animation-name: animateSphere;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.wohGreen-border {
+    border: 1px solid green;
+    /* background-image: url('../img/num1.png');
+    background-repeat: no-repeat; */
+}
+
+.wohGreen-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(255, 254, 254);
+    /* opacity: 0.8; */
+    /* background-image: url('../img/num1.png');
+    background-repeat: no-repeat; */
+}
+
+.wohGreen-circle:nth-child(1) {
+    transform: rotate3d(1, 0, 0, 0deg);
+}
+
+.wohGreen-circle:nth-child(2) {
+    transform: rotate3d(1, 0, 0, 36deg);
+}
+
+.wohGreen-circle:nth-child(3) {
+    transform: rotate3d(1, 0, 0, 72deg);
+}
+
+.wohGreen-circle:nth-child(4) {
+    transform: rotate3d(1, 0, 0, 108deg);
+}
+
+.wohGreen-circle:nth-child(5) {
+    transform: rotate3d(1, 0, 0, 144deg);
+}
+
+
+/* 18! difference to align*/
+
+.wohGreen-circle:nth-child(6) {
+    transform: rotate3d(0, 1, 0, 0deg);
+}
+
+.wohGreen-circle:nth-child(7) {
+    transform: rotate3d(0, 1, 0, 36deg);
+}
+
+
+/* Upper and Lower wohGreen-circle */
+
+.wohGreen-circle:nth-child(8) {
+    transform: rotate3d(0, 1, 0, 72deg);
+}
+
+.wohGreen-circle:nth-child(9) {
+    transform: rotate3d(0, 1, 0, 108deg);
+}
+
+.wohGreen-circle:nth-child(10) {
+    transform: rotate3d(0, 1, 0, 144deg);
+}
+
+.wohGreen-circle:nth-child(11) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 0deg);
+}
+
+.wohGreen-circle:nth-child(12) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 36deg);
+}
+
+
+/* Upper and Lower wohGreen-circle */
+
+.wohGreen-circle:nth-child(13) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 72deg);
+}
+
+.wohGreen-circle:nth-child(14) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 108deg);
+}
+
+.wohGreen-circle:nth-child(15) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 144deg);
+}
+
+
+/* wohGreen-scene the sphere a bit*/
+
+.wohGreen-scene {
+    opacity: 0.5;
+    z-index: 1000;
+    clip-path: circle(96px at center);
+}
+
+.num-green{
+    position: absolute;
+    z-index: 10;
+    font-weight: 800;
+    top: -12px;
+    left: 42%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Blue side */
+
+
+.wohBlue-scene {
+    perspective: 1000px;
+}
+
+.wohBlue {
+    z-index: 1;
+    margin-top: 45px;
+    margin-left: -25px;
+    margin-right: auto;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    transform-style: preserve-3d;
+    animation-name: animateSphere;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.wohBlue-border {
+    border: 1px solid blue;
+    /* background-image: url('../img/num1.png');
+    background-repeat: no-repeat; */
+}
+
+.wohBlue-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    /* opacity: 0.8; */
+    /* background-image: url('../img/num1.png');
+    background-repeat: no-repeat; */
+}
+
+.wohBlue-circle:nth-child(1) {
+    transform: rotate3d(1, 0, 0, 0deg);
+}
+
+.wohBlue-circle:nth-child(2) {
+    transform: rotate3d(1, 0, 0, 36deg);
+}
+
+.wohBlue-circle:nth-child(3) {
+    transform: rotate3d(1, 0, 0, 72deg);
+}
+
+.wohBlue-circle:nth-child(4) {
+    transform: rotate3d(1, 0, 0, 108deg);
+}
+
+.wohBlue-circle:nth-child(5) {
+    transform: rotate3d(1, 0, 0, 144deg);
+}
+
+
+/* 18! difference to align*/
+
+.wohBlue-circle:nth-child(6) {
+    transform: rotate3d(0, 1, 0, 0deg);
+}
+
+.wohBlue-circle:nth-child(7) {
+    transform: rotate3d(0, 1, 0, 36deg);
+}
+
+
+/* Upper and Lower wohBlue-circle */
+
+.wohBlue-circle:nth-child(8) {
+    transform: rotate3d(0, 1, 0, 72deg);
+}
+
+.wohBlue-circle:nth-child(9) {
+    transform: rotate3d(0, 1, 0, 108deg);
+}
+
+.wohBlue-circle:nth-child(10) {
+    transform: rotate3d(0, 1, 0, 144deg);
+}
+
+.wohBlue-circle:nth-child(11) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 0deg);
+}
+
+.wohBlue-circle:nth-child(12) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 36deg);
+}
+
+
+/* Upper and Lower wohBlue-circle */
+
+.wohBlue-circle:nth-child(13) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 72deg);
+}
+
+.wohBlue-circle:nth-child(14) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 108deg);
+}
+
+.wohBlue-circle:nth-child(15) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 144deg);
+}
+
+
+/* wohBlue-scene the sphere a bit*/
+
+.wohBlue-scene {
+    opacity: 0.5;
+    z-index: 1000;
+    clip-path: circle(96px at center);
+}
+
+.num-blue{
+    position: absolute;
+    z-index: 10;
+    font-weight: 700;
+    top: 15px;
+    left: 10px;
+    font-size: 40px;
+    transform: rotate(-30deg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Purple Side */
+
+
+.wohPurple-scene {
+    perspective: 1000px;
+}
+
+.wohPurple {
+    z-index: 1;
+    margin-top: 45px;
+    margin-left: -25px;
+    margin-right: auto;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    transform-style: preserve-3d;
+    animation-name: animateSphere;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.wohPurple-border {
+    border: 1px solid purple;
+    /* background-image: url('../img/num1.png');
+    background-repeat: no-repeat; */
+}
+
+.wohPurple-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    /* opacity: 0.8; */
+    /* background-image: url('../img/num1.png');
+    background-repeat: no-repeat; */
+}
+
+.wohPurple-circle:nth-child(1) {
+    transform: rotate3d(1, 0, 0, 0deg);
+}
+
+.wohPurple-circle:nth-child(2) {
+    transform: rotate3d(1, 0, 0, 36deg);
+}
+
+.wohPurple-circle:nth-child(3) {
+    transform: rotate3d(1, 0, 0, 72deg);
+}
+
+.wohPurple-circle:nth-child(4) {
+    transform: rotate3d(1, 0, 0, 108deg);
+}
+
+.wohPurple-circle:nth-child(5) {
+    transform: rotate3d(1, 0, 0, 144deg);
+}
+
+
+/* 18! difference to align*/
+
+.wohPurple-circle:nth-child(6) {
+    transform: rotate3d(0, 1, 0, 0deg);
+}
+
+.wohPurple-circle:nth-child(7) {
+    transform: rotate3d(0, 1, 0, 36deg);
+}
+
+
+/* Upper and Lower wohPurple-circle */
+
+.wohPurple-circle:nth-child(8) {
+    transform: rotate3d(0, 1, 0, 72deg);
+}
+
+.wohPurple-circle:nth-child(9) {
+    transform: rotate3d(0, 1, 0, 108deg);
+}
+
+.wohPurple-circle:nth-child(10) {
+    transform: rotate3d(0, 1, 0, 144deg);
+}
+
+.wohPurple-circle:nth-child(11) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 0deg);
+}
+
+.wohPurple-circle:nth-child(12) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 36deg);
+}
+
+
+/* Upper and Lower wohPurple-circle */
+
+.wohPurple-circle:nth-child(13) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 72deg);
+}
+
+.wohPurple-circle:nth-child(14) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 108deg);
+}
+
+.wohPurple-circle:nth-child(15) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 144deg);
+}
+
+
+/* wohPurple-scene the sphere a bit*/
+
+.wohPurple-scene {
+    opacity: 0.5;
+    z-index: 1000;
+    clip-path: circle(96px at center);
+}
+
+.num-purple{
+    position: absolute;
+    z-index: 10;
+    font-weight: 800;
+    top: 15px;
+    left: 0px;
+    font-size: 40px;
+    transform: rotate(30deg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-list{
+    /* position: absolute; */
+    /* left: -55px; */
+    /* margin-left: 5px; */
+    padding: 10px;
+    /* top: 60px; */
+    width: 60px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (min-width: 1px) and (max-width: 374.98px){
+    .menu-list{
+        width: 40px;
+        padding: 7px;
+        /* margin-left: 10px; */
+    }
+}
